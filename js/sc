@@ -1,0 +1,23 @@
+ <nav class="main-nav">
+    <div class="logo">
+      <img src="images/carlogo4.webp" alt="logo">
+    </div>
+    <div class="nav-list">
+      <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Login/Register</a></li>
+    </ul>
+    
+  </div>
+
+    <div class="Right-nav">
+      <input type="search" placeholder="Search...">
+      <button id="btn" type="submit">Search</button>
+    </div>
+   <div class="burger">
+    <i class="fa fa-bars"></i>
+   </div>
+    
+  </nav>

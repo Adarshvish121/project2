@@ -1,0 +1,347 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    
+}
+.logo
+{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 95px;
+    height: 75px;
+    border: 3px solid;
+    border-radius: 145px;
+   margin-left: 70px;
+}
+.nav-list 
+{
+  
+   width: 70%;
+   display: flex;   
+   align-items: center;
+}
+.nav-list li
+{
+    list-style: none;
+    padding: 25px;
+}
+.nav-list li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav-list li a:hover
+{
+ text-decoration: none;
+ 
+ color: rgb(212, 212, 19);
+}
+
+.rightnav
+{
+   
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+#search
+{
+    padding: 11px;
+    font-size:15px;
+    border-radius: 141px;
+    border: 3px solid rgb(195, 23, 23);
+}
+.backgraound
+{
+    background:rgb(11, 10, 10);
+    background-size: cover;
+    background-blend-mode:darken ;
+}
+.burger
+{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5px;
+    top: 15px;
+}
+.line
+{
+    width: 33px;
+    background-color: white;
+    height: 5px;
+    margin: 4px 13px;
+    display: flex; 
+}
+#bn
+{
+    color: #141515;
+    background: burlywood;
+    font-size: larger;
+    font-style: oblique;
+}
+/* ................................about.....................  */
+.carousel-item img
+{
+    height: 750px; 
+    
+}
+.carousel-item h5
+{
+    color: red;
+    font-size: 40px;
+}
+.text-sec 
+{
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}
+.about-section
+{
+    height: 620px;
+}
+.background
+{
+    background: rgba(0,0,0,0.7) url("images/img7.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    size: 50px;
+    
+}
+.about
+{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.about-para
+{
+    display: flex;
+    padding: 50px;
+}
+.para1
+{
+    color: white;
+    text-align: left;
+    border: 2px solid brown;
+    padding: 29px 17px;
+    font-size: 15px;
+}
+.para2
+{
+    color: white;
+    text-align: initial;
+    border: 2px solid brown;
+    padding: 29px 17px;
+    font-size: 15;
+}
+.para3
+{
+    color: white;
+    text-align: initial;
+    border: 2px solid brown;
+    padding: 29px 17px;
+    font-size: 15px;
+}
+.para1 p 
+{
+    text-align:center ;
+   font-size: 30px;
+   color: yellowgreen;
+}
+.para2 p 
+{
+    text-align: center;
+   font-size: 30px;
+   color: yellowgreen;
+}
+.para3 p 
+{
+    text-align: center;
+   font-size: 30px;
+   color: yellowgreen;
+}
+.button
+{
+    text-align: center;
+    font-size: 22px;
+    padding: 15px;
+    margin: 35px;
+    font-style: italic;
+    color: black;
+    /* background-color: red; */
+}
+/* //................................SERVICES...........................// */
+.services
+{
+    text-align: center;
+    height: 750px;
+    padding-top: 220px;
+    
+}
+.serv1
+{
+    color: rgb(19, 6, 16);
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.services1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.serv2 img
+{
+    height: 150px;
+    width: 155px;
+}
+.serv3 img
+{
+    height: 165px;
+    width: 165px;
+}
+.serv4 img
+{
+    height: 150px;
+    width: 155px;
+}
+.serv2 
+{
+ height: 80px;
+ width: 400px;
+}
+.serv3 
+{
+    height: 103px;
+    width: 500px;
+}
+.serv4 
+{
+    height:80px;
+    width: 400px;
+}
+/* .......................... login / ragistration....................  */
+
+.contect
+{
+    height: 700px;
+    width: 100%;
+}
+.cont
+{
+    text-align: center;
+    justify-content: center;
+    font-size: 39px;
+}
+.error
+{
+    color: red;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cont1
+{
+    align-items: center;
+    text-align: -webkit-center;
+    padding: 58px;
+    justify-content: center;
+    margin-top: 75px;
+    color: #0f1117f5;
+    font-size: 31px;
+   
+}
+.cont1 input
+{
+    margin: 15px 0;
+    padding: 0px 46px;
+    width: 86%;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 18px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.background
+{
+    background: rgba(0,0,0,0.7) url("images/img7.jpg");
+}
+.footer
+{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(22, 19, 19);
+    color: white;
+    
+}
+.main-footer
+{
+   display: flex;
+   width: 100;
+
+}
+.foot1
+{
+    margin-top: 50px;
+    width: 50%;
+    text-align: center;
+}
+.foot1 h2
+{
+  font-family: 'Times New Roman', Times, serif;
+} 
+.foot2
+{
+    margin-top: 50px;
+    text-align: center;
+    width: 50%;
+}
+.foot2 h2
+{
+  font-family: 'Times New Roman', Times, serif;
+} 
+
+/* ...................copy...................................... */
+.copy
+{
+    text-align: center;
+    height: 50px;
+    color: white;
+    background-color: black;
+    font-weight: 400;
+    font-style: italic;
+}
+.adarsh
+{
+    width: 750px;
+}
+.cont1 button
+{
+    color: #0d0e0d;
+    background: #999bca;
+    width: 198px;
+    font-size: 26px;
+    margin: 22px;
+    /* border: 2px solid; */
+    border-radius: 22px;
+}
